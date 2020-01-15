@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>ActiveBox</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
           integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Raleway:300,400,600,700&display=swap"
           rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1"><link href="styles.css" rel="stylesheet"></head>
 <body>
-<main>
-    <div class="banner">
+    <section class="banner">
         <header id="header" class="">
             <div class="headerContent">
                 <a class="logo" href="#"><img src="assets/images/logo.png" alt=""></a>
@@ -43,18 +43,19 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div id="features">
-        <div class="container">
-            <div class="containerFeature">
-                <div class="feature">
-                    <img src="./assets/images/01.png" alt="">
-                    <div class="featureContent">
-                        <h5>Easily Customised</h5>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna
-                            mollis
-                            ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    </div>
+    </section>
+    <main>
+        <section id="features">
+            <div class="container">
+                <div class="containerFeature">
+                    <div class="feature">
+                        <img src="./assets/images/01.png" alt="">
+                        <div class="featureContent">
+                            <h5>Easily Customised</h5>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna
+                                mollis
+                                ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                        </div>
                 </div>
                 <div class="feature">
                     <img src="./assets/images/02.png" alt="">
@@ -101,12 +102,12 @@
                             ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
                     </div>
                 </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div id="work">
-        <div class="workContainer">
-            <div class="work">
+        </section>
+        <section id="work">
+            <div class="workContainer">
+                <div class="work">
                     <img src="assets/images/work-1.jpg" alt="">
                     <div class="overlay">
                         <div class="overlayCaption">
@@ -114,7 +115,7 @@
                             <p>Website Design</p>
                         </div>
                     </div>
-            </div>
+                </div>
             <div class="work">
                     <img src="assets/images/work-2.jpg" alt="">
                     <div class="overlay">
@@ -170,63 +171,26 @@
                     </div>
             </div>
             <div class="work">
-                    <img src="assets/images/work-8.jpg" alt="">
-                    <div class="overlay">
-                        <div class="overlayCaption">
-                            <h5>Project Name</h5>
-                            <p>Website Design</p>
-                        </div>
+                <img src="assets/images/work-8.jpg" alt="">
+                <div class="overlay">
+                    <div class="overlayCaption">
+                        <h5>Project Name</h5>
+                        <p>Website Design</p>
                     </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div id="team">
+            </div>
+        </section>
+    </main>
+    <section id="team">
         <div class="container">
             <div class="teamContainer">
             </div>
         </div>
-    </div>
-    <section id="testimonials">
-        <div class="flexSlider">
-            <ul class="slides">
-                <li class="slide activeSlide">
-                    <div class="mediaContainer">
-                        <div class="avatar">
-                            <img src="assets/images/testimonial-1.jpg" alt="" class="img-responsive" draggable="false">
-                        </div>
-                    </div>
-                    <div class="mediaContainer">
-                        <div class="blockquote">
-                            <p>"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui.
-                                Aenean eu leo quam..."
-                            </p>
-                            <div class="author">Susan Sims, Interaction Designer at XYZ</div>
-                        </div>
-                    </div>
-                </li>
-                <li class="slide ">
-                    <div class="mediaContainer">
-                        <div class="avatar">
-                            <img src="assets/images/testimonial-2.jpg" alt="" class="img-responsive" draggable="false">
-                        </div>
-                    </div>
-                    <div class="mediaContainer">
-                        <div class="blockquote">
-                            <p>"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia
-                                bibendum nulla sed consectetur...."
-                            </p>
-                            <div class="author">Susan Sims, Interaction Designer at XYZ</div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <ol class="controlPanel">
-                <input type="radio" name="numSlide" value="1" class="active">
-                <input type="radio" name="numSlide" value="2">
-            </ol>
-        </div>
     </section>
-    <div id="download">
+    <section id="testimonials">
+    </section>
+    <section id="download">
         <div class="container ">
             <div class="downloadContent">
                 <h3>Are You Ready to Start? Download Now For Free!</h3>
@@ -234,9 +198,8 @@
                 <a href="https://github.com/kamalcha/ActiveBox/archive/master.zip" class="btn">Download for Free</a>
             </div>
         </div>
-    </div>
-</main>
-<footer id="pageFooter">
+    </section>
+    <footer id="pageFooter">
     <div class="footerTop">
         <div class="container footerContainer">
             <div class="footerItem">
